@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>m.h.j</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: lightblue;
+}
+
+/* Header */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: yellow;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: lightblue;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: green;
+  width: 100%;
+  padding: 60px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: red;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: blue;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>M.H.J</h1>
+  <p>this website is for selling second hand mobile.</p>
+</div>
+
+<div class="topnav">
+  <a href="file:///C:/Users/mhj/Desktop/html%20sem-2/mobile.html" target="_blank">mobile</a>
+  <a href="file:///C:/Users/mhj/Desktop/html%20sem-2/smart%20watch.html" target="_blank"> smart watch</a>
+  <a href="file:///C:/Users/mhj/Desktop/html%20sem-2/laptop.html" target="_blank">laptop</a>
+  <a href="file:///C:/Users/mhj/Desktop/html%20sem-2/more.html" target="_blank" style="float:right">more</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>M.H.J</h2>
+      <h5>this website is for selling second hand mobile</h5>
+      
+      <img src="https://th.bing.com/th/id/R.d57c7c9f22ce8e0cb0e9fb7432576e93?rik=%2b%2beDWYG4cqrN0w&riu=http%3a%2f%2fspiderimg.amarujala.com%2fassets%2fimages%2f2017%2f01%2f23%2f500x500%2fsecond-hand-phone_1485162997.jpeg&ehk=lTuY9eDYXybHpY03Bq%2f9D%2fb%2bUL6CKBME8VaqAuzmasc%3d&risl=&pid=ImgRaw&r=0" width="460" height="345"> 
+      <p>in this year we sold 5000 mobile on this website.</p>
+    </div>
+    <div class="card">
+      <h2>shope details</h2>
+      <h5>best condition mobile and discount at our shope</h5>
+      <img src="https://i.ytimg.com/vi/7cE9f3Hoah8/maxresdefault.jpg" width="460" height="345">
+    
+      <p>adders of shope</p>
+      <p>opp. bhagwat,s.g highway,ahmedabad-382481.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About us</h2>
+      <img src="https://th.bing.com/th/id/OIP.0AD5ba2-6Sqt5XzzLury3AHaEK?pid=ImgDet&rs=1" width="460" height="345">
+      
+      <p>we have 7 branches in india</p>
+      <p>we have diffrent type of mobile</p>
+      <p>we also give mobile on monthly lone</p>
+      <p>we give more discont as comper to other website</p> 
+      <p>you also buy new phone at our website .</p>
+    </div>
+    <div class="card">
+      <h3>sale of mobile</h3>
+      
+      <img src="https://threebestrated.co.uk/images/TheMobileShop-Manchester-UK-1.jpeg" width="460" height="345"> 
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>on instagram my id is harshil_mhj_8055</p><br>
+      <p>you also contact with us on mobile my mobile number is 8141216783</p>
+      <p>come to our shopes and visit us.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>thank you for visiting our website.</h2>
+</div>
+
+
+</body>
+</html>
+
+
